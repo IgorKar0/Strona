@@ -1,19 +1,30 @@
 header {
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
 }
-h1  {font-size: 30px;}
-
+.tytle  {
+    text-align: center;
+    padding: 50vh 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;;
+}
+h3 {
+    font-size: 25px;
+}
 .welcome {
     background-image: url('img/welcome.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .navbar ul {
-    position: absolute;
-    list-style-type: none;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -31,4 +42,16 @@ h1  {font-size: 30px;}
     text-align: center;
     border: 1px solid black;
 
+}
+
+.text-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.text-flex span {
+    display: block;
+    padding: 0px 15%;
+}
+.news h2 {
+    text-align: center;
 }
