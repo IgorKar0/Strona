@@ -82,13 +82,11 @@ h3 {
 
 }
 .pic img {border-radius: 50%;}
-
+ 
 .pic-flex {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 .animals {
     display: flex;
     height: 50vh;
