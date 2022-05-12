@@ -1,77 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-    <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZOO</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ZOO Lorem ipsum</title>
+
 </head>
+
 <body>
-    <nav>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Artykuły</a></li>
+            <li><a href="#">Zwierzęta</a></li>
+            <li><a href="#">Bilety</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
 
     </nav>
-    <header>
-        <img src="" alt="">
+    <header class="welcome">
+        <!-- <img src="img/welcome.jpg" alt=""> -->
+        <div class="tytle">
+            <h1>ZOO Lorem ipsum</h1>
+            <h3>Najnowocześniejsze ZOO w Polsce</h2>
+        </div>
     </header>
-    <section>
-        <article>
+    <section class="news">
+        <h2>Artykuły</h2>
+        <div class="text-flex">
+            <article class="text">
+                <span>Pandy wielkie obchodzą 50-cio lecie programu Konserwacji Pand Wielkich w Smithsonian’s National Zoo and Conservation Biology Institute.</span>
+            </article>
 
-        </article>
+            <article class="text">
+                <span>Cztery lwy wychowane we Francuskim ZOO wypuszczone na wolność! </span>
+            </article>
 
-        <article>
+            <article class="text">
+                <span>Już od 1 maja zapraszamy do nowego orientarium!</span>
+            </article>
+        </div>
+    </section><br>
 
-        </article>
-
-        <article>
-
-        </article>
-
+    <section class="animals">
+        <h2></h2>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=1" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=2" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=3" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=4" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=5" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=6" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=7" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
+        <div class="pic">
+            <img src="https://picsum.photos/200/300?random=8" alt=""><br>
+            <span>Lorem ipsum</span>
+        </div>
     </section>
-
-    <section>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-        <div>
-            <img src="" alt="">
-            <span></span>
-        </div>
-    </section>
-    <section>
-        
+    <section class="tickets">
+        <table>
+            <tr>
+                <th>Ceny</th>
+                <th>Normalny</th>
+                <th>Ulgowy</th>
+            </tr>
+            <tr>
+                <td>Małe Zoo</td>
+                <td>30 zł</td>
+                <td>15 zł</td>
+            </tr>
+            <tr>
+                <td>Duże Zoo</td>
+                <td>60 zł</td>
+                <td>25 zł</td>
+            </tr>
+        </table>
     </section>
     <form action="">
-
-
+        <label for="text">Imię:</label><br>
+        <input type="text" id="Imię" name="Imię" value="Imię"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="Email"><br>
+        <label type="text">Podziel się z nami:</label><br>
+        <input type="text" id="tresc" name="tresc">
+        <input type="submit" value="Prześlij">
     </form>
     <footer>
+        Kontakt
+        ZOO Lorem Ipsum
+        Nowa Sól
+        99 – 200 Poddębice
         
+        +48 790 3210021
+        +48 43 666666666
+        +48 43 44444444
     </footer>
 </body>
+
 </html>

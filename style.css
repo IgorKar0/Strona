@@ -1,0 +1,72 @@
+header {
+    display: block;
+    /* height: 100vh; */
+}
+.tytle  {
+    text-align: center;
+    padding: 50vh 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;;
+}
+h3 {
+    font-size: 25px;
+}
+.welcome {
+    background-image: url('img/welcome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar ul {
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(15, 82, 18);
+}
+.navbar li :hover {background-color: lime;}
+.navbar li {    
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 60px ;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.text-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.text-flex span {
+    display: block;
+    padding: 0px 15%;
+}
+.news h2 {
+    text-align: center;
+}
+.animals {
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic {
+    padding: 5px;
+    columns: 2;
+    flex-wrap: wrap;
+}
