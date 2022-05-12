@@ -16,7 +16,8 @@ h3 {
     font-size: 25px;
 }
 .welcome {
-    background-image: url('img/welcome.jpg');
+
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255, 255, 255, 0.5)), url('img/welcome.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,6 +45,12 @@ h3 {
     border-radius: 10px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .text-flex {
     display: flex;
     justify-content: center;
@@ -52,7 +59,16 @@ h3 {
 }
 .text-flex span {
     display: block;
-    padding: 0px 15%;
+    padding: 3vh 15%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-flex img {
+    display: flex;
+    border-radius: 50%;
+    width: 30vh;
+
 }
 .news {
     display: flex;
@@ -97,4 +113,45 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.tickets {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 240, 229);
+    align-items: center;
+    flex-direction: column;
+}
+.tickets tr{
+    font-size: 20px;
+    text-align: center;
+}
+.tickets td {
+    padding: 4vh 5vw;
+    border: 1px solid;
+    background-color: rgb(223, 223, 198);
+}
+.tickets td:first-child {
+    font-weight: bold;
+    background-color: bisque;
+    
+}
+.tickets th {
+    padding: 2vh 7vw;
+    border: 1px solid;
+    background-color: bisque;
+    font-weight: bold;
+}
+.tickets h2 {
+text-align: center;
+margin-bottom: 3vh;
 }
