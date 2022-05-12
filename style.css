@@ -68,26 +68,39 @@ h3 {
 .text {
         width: 33vw
 }
-.animals {
+/* .animals {
     display: flex;
     vertical-align: top;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-
-}
+} */
 .pic {
     padding: 5px;
     columns: 2;
-    flex-wrap: wrap;
+
 }
 .pic img {border-radius: 50%;}
 
 .pic-flex {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 
+.animals {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+}
+.animals h2 {
+    text-align: center;
+    padding: 4vh;
+}
+.pic-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+}
