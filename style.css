@@ -79,18 +79,14 @@ h3 {
 .pic {
     padding: 5px;
     columns: 2;
-
+    justify-content: space-around;
 }
 .pic img {border-radius: 50%;}
- 
-.pic-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .animals {
     display: flex;
-    height: 50vh;
     flex-direction: column;
+
 }
 .animals h2 {
     text-align: center;
@@ -98,7 +94,7 @@ h3 {
 }
 .pic-flex {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 0 10vw;
+    flex-wrap: wrap;
+    text-align: center;
 }
